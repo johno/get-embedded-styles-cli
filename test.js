@@ -8,6 +8,6 @@ test('file', async t => {
 })
 
 test('stdio', async t => {
-  const stdout = await pify(childProcess.execFile)('./cli.js < fixture.html', { cwd: __dirname })
+  const stdout = await pify(childProcess.exec)('./cli.js < fixture.html', { cwd: __dirname })
   t.ok(stdout.trim())
 })
