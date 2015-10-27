@@ -18,7 +18,7 @@ const cli = meow(`
 `)
 
 function init (html) {
-  console.log(getEmbeddedStyles(html))
+  console.log(getEmbeddedStyles(html).trim())
 }
 
 const input = cli.input[0]
