@@ -7,6 +7,12 @@
   "files": [
     "cli.js"
   ],
+  "bin": {
+    "get-embedded-styles": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
   "scripts": {
     "test": "ava"
   },
