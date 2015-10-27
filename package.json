@@ -1,0 +1,39 @@
+{
+  "name": "get-embedded-styles-cli",
+  "description": "Get embedded CSS from an HTML string.",
+  "author": "John Otander",
+  "version": "0.1.0",
+  "main": "cli.js",
+  "files": [
+    "cli.js"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/get-embedded-styles-cli.git"
+  },
+  "keywords": [
+    "css",
+    "cli",
+    "cli-app",
+    "styles",
+    "embedded",
+    "html"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/get-embedded-styles-cli/issues"
+  },
+  "homepage": "https://github.com/johnotander/get-embedded-styles-cli",
+  "dependencies": {
+    "file-exists": "^0.1.1",
+    "get-embedded-styles": "^1.0.0",
+    "get-stream": "^1.0.0",
+    "meow": "^3.4.2"
+  },
+  "devDependencies": {
+    "ava": "*"
+  }
+}
