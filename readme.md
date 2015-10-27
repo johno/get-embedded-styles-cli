@@ -33,6 +33,10 @@ get-embedded-styles path/to/file.html
 get-embedded-styles < path/to/file.html
 ```
 
+## Related
+
+* [get-embedded-styles](https://github.com/johnotander/get-embedded-styles)
+
 ## License
 
 MIT
